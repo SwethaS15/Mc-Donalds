@@ -1,0 +1,106 @@
+html{
+    background-color:#ffffff;
+    width: 100vw;
+    position: fixed;
+    margin: none;
+}
+
+
+body {
+    width: 1000px;
+    height: 600px;
+    background-color:#FFF2D8;
+    margin-left: 145px;
+    border: none;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5px;
+    color: brown;
+    margin: 0;
+}
+
+h1:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    background-color:#FFB534;
+}
+
+#logo{
+   width: 950px;
+   height: 300px;
+   border: none;
+   border-radius: 10px;
+   margin: 0;
+   margin-left: 25px;
+   margin-top: 15px;
+}
+
+#orderId{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+}
+
+#logo:hover{
+    transform: scale(1.05);
+}
+
+#foodItems {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#label-holder{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+label {
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+label:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    background-color:#FFB534;
+}
+
+button {
+    /* margin-top: 10px; */
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #FFA559;
+    color: #ffffff; 
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    background-color: aqua;
+}
+
+#btn-holder{
+    display: flex;
+    justify-content: center;
+    gap : 30px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+#imageContainer {
+    text-align: center;
+}

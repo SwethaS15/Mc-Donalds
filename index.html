@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>McDonalds</title>
+</head>
+<body>
+    <h1><<<----- Food Ordering System ---->>></h1>
+    <img id="logo" src="https://www.passionateinmarketing.com/wp-content/uploads/2022/01/online-food-ordering-statistics-RestroApp-1536x766.jpg" alt="logo">
+    <div id="orderId"></div>
+    <div id="status"></div>
+
+    <div id="imageContainer"></div>
+
+    <div id="foodItems">
+      <div id="label-holder">
+        <label>
+            <input type="radio"   name="food" value="Burger"> Burger
+        </label>
+
+        <label>
+            <input type="radio" name="food" value="Momos"> Momos
+        </label>
+
+        <label>
+            <input type="radio"   name="food" value="Butter chicken"> Butter chicken
+        </label>
+
+        <label>
+            <input type="radio"   name="food" value="Pizza"> Pizza
+        </label>
+
+        <label>
+            <input type="radio"   name="food" value="Hot dog"> Hot dog
+        </label>
+
+        <label>
+            <input type="radio"   name="food" value="Chicken Biryani">Chicken Biryani
+        </label>
+      </div>
+      </div>
+
+      <div id="btn-holder">
+        <button  onclick="orderFood()">Order Food</button>
+        <button   onclick="resetForm()">Home</button>
+      </div>
+
+      <img src="" alt="">
+     <script src="./index.js"></script>
+</body>
+</html>
